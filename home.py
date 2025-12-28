@@ -2,20 +2,6 @@ import streamlit as st
 from PIL import Image
 
 
-#Background image
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-image: url("https://moondroplab.com/en/drawing?4c8143ce_page=1");
-        background-attachment: fixed;
-        background-size: cover
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 #Title: 
 st.markdown("<h1 style='text-align: center;'>🏡Home Page</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center;'>Alexander Cai's IEM Page</h5>", unsafe_allow_html=True)
